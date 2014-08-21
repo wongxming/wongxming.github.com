@@ -11,7 +11,7 @@ mongo shell
 MongoDB shell version: 2.6.4
 connecting to: test
 Server has startup 
-> db
+> >db
 test
 > show dbs
 admin  (empty)
