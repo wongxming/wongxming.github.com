@@ -49,3 +49,8 @@ Server has startup
 mongod --httpinterface --rest
 
 http://localhost:28017/test/testData/
+
+Wxm:~ wongxming$ lsof -i:27017
+COMMAND PID      USER   FD   TYPE             DEVICE SIZE/OFF NODE NAME
+mongod  481 wongxming    7u  IPv4 0xcc55a31d942c7bc3      0t0  TCP *:27017 (LISTEN)
+Wxm:~ wongxming$ kill -9 481
