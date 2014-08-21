@@ -12,14 +12,23 @@ MongoDB shell version: 2.6.4
 connecting to: test
 Server has startup 
 > ~db
+
 > test
+
 > ~show dbs
+
 > admin  (empty)
+
 > local  0.078GB
+
 > test   0.078GB
+
 > ~show collections
+
 > system.indexes
+
 > testData
+
 > ~db.testData.find()
 > { "_id" : ObjectId("53f471f5f9d316272ad95f5d"), "name" : "wongm" }
 > { "_id" : ObjectId("53f54ff8ce1dd8bc531ed811"), "name" : "wongm", "age" : 18 }
