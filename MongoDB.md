@@ -12,7 +12,6 @@ MongoDB shell version: 2.6.4
 connecting to: test
 Server has startup 
 > ~db
-
 > test
 
 > ~show dbs
