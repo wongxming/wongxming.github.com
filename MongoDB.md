@@ -45,3 +45,7 @@ Server has startup
 
 > ~db.testData.findOne()
 > { "_id" : ObjectId("53f471f5f9d316272ad95f5d"), "name" : "wongm" }
+
+mongod --httpinterface --rest
+
+http://localhost:28017/test/testData/
